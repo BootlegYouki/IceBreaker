@@ -2,17 +2,18 @@
   "name": "icebreaker",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "start": "electron .",
-    "electron:dev": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "electron": "^40.0.0"
+    "@tauri-apps/cli": "^2.0.0",
+    "vite": "^6.0.0"
   }
 }
